@@ -1,0 +1,23 @@
+{
+    "name": "shiftedreality/mageconf-demo-module",
+    "description": "Demonstration module with UI Components basics",
+    "type": "module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleh Posyniak",
+            "email": "oleg.posyniak@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "100.1.*",
+        "magento/module-ui": "100.1.*"
+    }
+}
