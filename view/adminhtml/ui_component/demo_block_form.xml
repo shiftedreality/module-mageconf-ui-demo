@@ -12,6 +12,14 @@
             <item name="namespace" xsi:type="string">demo_block_form</item>
         </item>
         <item name="template" xsi:type="string">templates/form/collapsible</item>
+        <item name="buttons" xsi:type="array">
+            <item name="add" xsi:type="array">
+                <item name="name" xsi:type="string">add</item>
+                <item name="label" xsi:type="string" translate="true">Sample Button</item>
+                <item name="class" xsi:type="string">primary</item>
+                <item name="url" xsi:type="string">*/*/new</item>
+            </item>
+        </item>
     </argument>
     <dataSource name="block_form_data_source">
         <argument name="dataProvider" xsi:type="configurableObject">
