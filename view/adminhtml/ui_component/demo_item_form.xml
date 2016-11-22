@@ -23,7 +23,7 @@
     </argument>
     <dataSource name="item_form_data_source">
         <argument name="dataProvider" xsi:type="configurableObject">
-            <argument name="class" xsi:type="string">Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider</argument>
+            <argument name="class" xsi:type="string">ShiftedReality\MageConfDemo\Ui\DemoDataProvider</argument>
             <argument name="name" xsi:type="string">item_form_data_source</argument>
             <argument name="primaryFieldName" xsi:type="string">item_id</argument>
             <argument name="requestFieldName" xsi:type="string">item_id</argument>
@@ -44,7 +44,7 @@
         <argument name="data" xsi:type="array">
             <item name="config" xsi:type="array">
                 <item name="label" xsi:type="string">Simple elements</item>
-                <item name="collapsible" xsi:type="boolean">true</item>
+                <item name="collapsible" xsi:type="boolean">false</item>
             </item>
         </argument>
         <field name="input">
@@ -67,23 +67,7 @@
                 </item>
             </argument>
         </field>
-        <field name="is_active">
-            <argument name="data" xsi:type="array">
-                <item name="config" xsi:type="array">
-                    <item name="sortOrder" xsi:type="number">30</item>
-                    <item name="dataType" xsi:type="string">boolean</item>
-                    <item name="formElement" xsi:type="string">checkbox</item>
-                    <item name="source" xsi:type="string">category</item>
-                    <item name="prefer" xsi:type="string">toggle</item>
-                    <item name="label" xsi:type="string" translate="true">Sample Toggle</item>
-                    <item name="valueMap" xsi:type="array">
-                        <item name="true" xsi:type="string">1</item>
-                        <item name="false" xsi:type="string">0</item>
-                    </item>
-                    <item name="default" xsi:type="string">1</item>
-                </item>
-            </argument>
-        </field>
+        <!-- Place for dynamic element -->
         <field name="image">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
@@ -94,7 +78,7 @@
                     <item name="formElement" xsi:type="string">fileUploader</item>
                     <item name="elementTmpl" xsi:type="string">ui/form/element/uploader/uploader</item>
                     <item name="required" xsi:type="boolean">false</item>
-                    <item name="sortOrder" xsi:type="number">30</item>
+                    <item name="sortOrder" xsi:type="number">40</item>
                     <item name="uploaderConfig" xsi:type="array">
                         <item name="url" xsi:type="url" path="demo/image/upload"/>
                     </item>
