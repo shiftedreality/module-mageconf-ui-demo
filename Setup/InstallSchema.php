@@ -1,23 +1,13 @@
-<?php
-/**
- * Copyright © 2016 Magento. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-namespace ShiftedReality\MageConfDemo\Setup;
+<?php namespace ShiftedReality\MageConfDemo\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;
 
-/**
- * @codeCoverageIgnore
- */
 class InstallSchema implements InstallSchemaInterface
 {
     /**
-     * {@inheritdoc}
-     * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
+     * @inheritdoc
      */
     public function install(SchemaSetupInterface $setup, ModuleContextInterface $context)
     {

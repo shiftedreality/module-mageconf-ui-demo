@@ -1,10 +1,12 @@
-<?php
-
-namespace ShiftedReality\MageConfDemo\Controller\Adminhtml\Index;
+<?php namespace ShiftedReality\MageConfDemo\Controller\Adminhtml\Index;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\Controller\ResultFactory;
 
+/**
+ * Class Index
+ * @package ShiftedReality\MageConfDemo\Controller\Adminhtml\Index
+ */
 class Index extends Action
 {
     /**

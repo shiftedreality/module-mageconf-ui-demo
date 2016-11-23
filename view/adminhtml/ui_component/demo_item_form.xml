@@ -6,7 +6,6 @@
             <item name="provider" xsi:type="string">demo_item_form.item_form_data_source</item>
             <item name="deps" xsi:type="string">demo_item_form.item_form_data_source</item>
         </item>
-        <item name="label" xsi:type="string" translate="true">Demo</item>
         <item name="config" xsi:type="array">
             <item name="dataScope" xsi:type="string">data</item>
             <item name="namespace" xsi:type="string">demo_item_form</item>
@@ -112,6 +111,18 @@
                     <item name="dataScope" xsi:type="string">description</item>
                     <item name="sortOrder" xsi:type="number">50</item>
                     <item name="rows" xsi:type="number">8</item>
+                </item>
+            </argument>
+        </field>
+        <field name="demo">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="sortOrder" xsi:type="number">60</item>
+                    <item name="dataType" xsi:type="string">string</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="label" xsi:type="string" translate="true">Demo UI Component</item>
+                    <item name="component" xsi:type="string">ShiftedReality_MageConfDemo/js/components/form/demo</item>
+                    <item name="elementTmpl" xsi:type="string">ShiftedReality_MageConfDemo/form/element/demo</item>
                 </item>
             </argument>
         </field>
