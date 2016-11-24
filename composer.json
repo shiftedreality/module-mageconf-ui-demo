@@ -1,7 +1,7 @@
 {
-    "name": "shiftedreality/mageconf-demo-module",
+    "name": "shiftedreality/module-mageconf-ui-demo",
     "description": "Demonstration module with UI Components basics",
-    "type": "module",
+    "type": "magento2-module",
     "license": "MIT",
     "authors": [
         {
