@@ -1,6 +1,4 @@
-<?php
-
-namespace ShiftedReality\MageConfDemo\Ui;
+<?php namespace ShiftedReality\MageConfDemo\Ui;
 
 use Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider;
 use Magento\Ui\Component\Form\Element\Checkbox;
@@ -9,6 +7,10 @@ use Magento\Ui\Component\Form\Element\DataType\Text;
 use Magento\Ui\Component\Form\Element\Wysiwyg;
 use Magento\Ui\Component\Form\Field;
 
+/**
+ * Class DemoDataProvider
+ * @package ShiftedReality\MageConfDemo\Ui
+ */
 class DemoDataProvider extends DataProvider
 {
     /**
